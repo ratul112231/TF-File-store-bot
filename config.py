@@ -5,19 +5,19 @@ from logging.handlers import RotatingFileHandler
 
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8602305947:AAHZ66lEAB4AOgp3Bbn22OugfK9eviZ7X_I")
+API_ID = int(os.environ.get("API_ID", "39396720"))
+API_HASH = os.environ.get("API_HASH", "945f0314b982ab0847fd009e5e447b64")
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "6299192020"))
-DB_URL = os.environ.get("DB_URL", "")
+OWNER_ID = int(os.environ.get("OWNER_ID", "6992010963"))
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://ratulislam7698:76986878ratulis@cluster0.awxceu1.mongodb.net/")
 DB_NAME = os.environ.get("DB_NAME", "Tecfreaktamil")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003094784222"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003656239689")
 
-FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1003056865925"))
+FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1003476604924"))
 
 FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "0"))
 
